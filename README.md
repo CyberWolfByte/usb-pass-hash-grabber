@@ -88,5 +88,4 @@ This DuckyScript is designed for rapid exfiltration of Windows password hashes b
 If you have an idea for an improvement or if you're interested in collaborating, you are welcome to contribute. Please feel free to open an issue or submit a pull request.
 
 ## License
-
-This project is licensed under the XYZ License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public (GPL) License - see the [LICENSE](LICENSE) file for details.
