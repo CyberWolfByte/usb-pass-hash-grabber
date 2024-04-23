@@ -2,7 +2,7 @@
 
 This project utilizes a USB Rubber Ducky to capture Windows password hashes in less than two seconds, demonstrating a powerful method for assessing policy compliance and information security awareness. By executing a simple DuckyScript payload, it initiates a CIFS/SMB connection to a targeted listening server to obtain user hash information. This technique is effective across almost all versions of Microsoft Windows and requires minimal privileges, making it a valuable tool for penetration testers and internal red teams.
 
-The critical component of this attack is ****impacket-smbserver from the Impacket suite, an open-source tool designed for such operations. The server needs to be set up on the target network to capture the NTLM hash, timestamp, workstation ID, and user details as Windows attempts to authenticate with the CIFS share.
+The critical component of this attack is impacket-smbserver from the Impacket suite, an open-source tool designed for such operations. The server needs to be set up on the target network to capture the NTLM hash, timestamp, workstation ID, and user details as Windows attempts to authenticate with the CIFS share.
 
 ## Disclaimer
 
