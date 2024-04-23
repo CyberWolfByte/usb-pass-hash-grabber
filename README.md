@@ -8,6 +8,10 @@ The critical component of this attack is impacket-smbserver from the Impacket su
 
 The tools and scripts provided in this repository are made available for educational purposes only and are intended to be used for testing and protecting systems with the consent of the owners. The author does not take any responsibility for the misuse of these tools. It is the end user's responsibility to obey all applicable local, state, national, and international laws. The developers assume no liability and are not responsible for any misuse or damage caused by this program. Under no circumstances should this tool be used for malicious purposes. The author of this tool advocates for the responsible and ethical use of security tools. Please use this tool responsibly and ethically, ensuring that you have proper authorization before engaging any system with the techniques demonstrated by this project.
 
+## Acknowledgments
+
+This project is based on [usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads) by [Darren Kitchen](https://github.com/hak5darren). We thank them for their work and contributions to the community.
+
 ## Features
 
 This DuckyScript is designed for rapid exfiltration of Windows password hashes by exploiting the SMB (Server Message Block) protocol. When executed, it forces a Windows machine to attempt an SMB connection to a predefined server, triggering an automatic hash exchange process part of the SMB protocol's authentication mechanism.
